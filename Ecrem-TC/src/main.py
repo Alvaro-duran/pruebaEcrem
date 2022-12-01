@@ -46,7 +46,7 @@ async def contact(text: str = Form(...)):
 - Tab name: Node: De cero a experto | Udemy. Topic: Programming.
 - Tab name: """ +text+". Topic: "
 
-    openai.api_key = "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"
+    openai.api_key = "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"
 
 
 
