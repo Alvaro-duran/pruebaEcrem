@@ -1,0 +1,7 @@
+flask
+requests
+python-time
+python-csv
+ua-parser
+geopy
+
