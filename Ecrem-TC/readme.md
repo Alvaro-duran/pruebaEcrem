@@ -22,7 +22,7 @@ Como hemos visto en el anterior paso asi quedaria nuestra ApiKey, recordar poner
 
 2.- En este enlace crear la api key https://beta.openai.com/account/api-key .
 
-<img src="./img/OpenaicrearClave.PNG">
+<img src="./img/OpenaiCrearClave.PNG">
 
 3.- Sustituir Clave en main.py .
 
