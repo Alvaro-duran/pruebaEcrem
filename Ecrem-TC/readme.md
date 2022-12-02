@@ -10,7 +10,7 @@ Una vez tengamos clonado este proyecto, tendremos que abrir el proyecto y añadi
 
 por nuestra ApiKey de OpenAI.
 
-<img src="./img/OpenAiClave.PNG">
+<img src="./img/apikey.PNG">
 
 Como hemos visto en el anterior paso asi quedaria nuestra ApiKey, recordar poner la key entre comillas (" ").
 
@@ -22,11 +22,11 @@ Como hemos visto en el anterior paso asi quedaria nuestra ApiKey, recordar poner
 
 2.- En este enlace crear la api key https://beta.openai.com/account/api-key .
 
-<img src="./img/OpenaiCrearClave.PNG">
+<img src="./img/create.PNG">
 
 3.- Sustituir Clave en main.py .
 
-<img src="./img/OpenAiClave.PNG">
+<img src="./img/apikey.PNG">
 
 
 
