@@ -39,7 +39,9 @@ Para cargar las extensiones debemos seguir los siguientes pasos.
 
 <h2 align="center"> Start Server.  </h2>
 
-    1.- Abriremos una consola y pondremos los siguientes comandos.
+    1.- Abriremos una terminal de Windows (cmd) entraremos en la ruta donde hayamos clonado
+    Este repositorio y pondremos los siguientes comandos para  inicializar nuestro servidor
+    de escucha.
 
         - pip install -r requirements.txt
                 - si en este paso tenemos problemas pondremos el siguiente comando:
@@ -48,6 +50,30 @@ Para cargar las extensiones debemos seguir los siguientes pasos.
                     
         - python app.py
     
-    2.- Una vez Realizado el paso anterior nuestra aplicación ya estara usandose.
+    2.- Una vez Realizado el paso anterior nuestra aplicación ya estara usandose. 
 
+
+<h3 align="center">Como abrir una terminal? </h3>
+
+Pulsamos el icono de windows en nuestro teclado y escribimos CMD 
+
+<img src="./img/cmd.PNG">
+
+Ahora deberas navegar hasta la carpeta donde tengas los siguientes archivos.
+
+Un truco sencillo sería copiar la ruta que nos sale al clikar lo subrayado en la siguiente imagen.
+
+<img src="./img/ruta.PNG">
+
+Una vez copiado pondremos "cd + la ruta copiada" para pegarla, deberemos utilizar control + v.
+
+Y ya lo siguiente sería escribir lo siguiente en el cmd.
+
+1.- Instalar los paquetes necesarios.
+
+    Pip install -r requirements.txt
+
+2.- Iniciar la api. 
+
+    uvicorn src.main:app --reload 
     
